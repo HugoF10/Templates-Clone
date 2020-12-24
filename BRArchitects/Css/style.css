@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}    
+html,body {
+    height:100%;
+}
+h1,h2,h3,h4,h5,h5{
+    font-weight: 400;
+    margin:10px 0;
+}
+.container{
+    max-width:1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    padding-top:10px 0;
+    width: 100%;
+    height: 100vh;
+}
+header .line{
+    width: 100%;
+    height:auto;
+}
+header .menu{
+    
+    float: right;
+}
+header .logo{
+    border:none;
+    outline: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+header .logo a{
+    color: black;
+    font-size: 22px;
+    text-decoration: none;
+}
+header .logo b{
+    margin-right: 5px;
+    font-size:22px ;
+    color: black;
+    font-weight: bold;
+}
+header .menu ul{
+    list-style-type: none;
+}
+header .menu ul li{
+    display: inline-block;
+    padding: 10px 16px;
+}
+header .menu ul li a{
+    font-size: 20px;
+    letter-spacing: 4px; /*distanciamento de cada linha*/
+    text-decoration: none;
+    color: #4f5952;
+}
+.background{
+    position: relative;
+    height: 90%;
+    width: 100%;
+    background-image: url('../Imagens/arc.jpg');
+    background-position: top;
+    background-size: cover;
+    background-position: center;
+}
+.opacity{
+    max-width: 600px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+.opacity > .opacity-b{
+    width: 100%;
+    background-color: black;
+    padding: 8px 16px;
+    font-size: 36px;
+    opacity: 0.8; 
+}
+.opacity  .opacity-b > b{
+    color: white;
+}
+.opacity > .opacity-c{
+    margin-left: 10px;
+    font-size: 36px;
+    font-weight: normal;
+    color: white;
+}
+.projetos{
+    max-width: 1300px;
+    margin: 0 auto;
+   
+}
+.projetos h2{
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+}
+section.projetos > .container{
+   
+}
