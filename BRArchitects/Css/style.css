@@ -120,7 +120,7 @@ section.projetos .container .single-container > .single-text{
    color: white;
    padding: 8px 16px;
    background:black;
-   line-height: ;
+   /* line-height: ; */
 }
 section.projetos .container .single-container > .single-img{
     padding:  10px 8px;
@@ -140,7 +140,7 @@ section.about > .container{
 }
 section.about .about-text{
     margin-top:30px;
-    font-size: ;
+    /* font-size: ; */
 }
 section.about > .about-contact{
     width: 100%;
