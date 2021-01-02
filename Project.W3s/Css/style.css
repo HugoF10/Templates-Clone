@@ -55,17 +55,22 @@ header .menu ul li a{
     text-decoration: none;
     color: #4f5952;
 }
-
+header .menu ul li a:hover{
+    background-color: #ccc;
+    padding: 8px 5px;
+    color: white;
+}
  /***********************/
 
  section.box{
     width: 100%;
     height: 100vh;
+    
  }
  section.box > .container{
     max-width: 100%;
  }
-section.box > .container > .imagem-fundo{
+section.box .container > .imagem-fundo{
     height: 100vh;
     width: 100%;
     position: relative;
@@ -74,16 +79,16 @@ section.box > .container > .imagem-fundo{
     background-position: center;
     background-repeat: no-repeat;
 }
-section.box > .container > .texto{
+section.box .container > .texto{
     width: auto;
     position: relative;
-    top:-60px;
+    top:-80px;
     left: 0;
 }
-section.box > .container > .texto h1{
+section.box .container > .texto h1{
     font-weight:400;
     font-size: 50px;
-    color: #000;
+    color: #696969;
     padding: 0px 2%;   
     letter-spacing: 5px;
 }
@@ -108,6 +113,7 @@ section.sessao1 .single-container{
 section.sessao1 .single-container .single-img{
     width: 600px;
     padding: 8px 16px;
+    
 }
 section.sessao1 .single-container .single-img img{
     padding: 30px;
@@ -231,6 +237,12 @@ section.sessao3 .form-container .botao{
     border: none;
     text-transform: uppercase;  
 }
+.botao:hover{
+    background-color: #000;
+    color: white;
+    border: none;
+    
+}
 footer{
     width: 100%;
     padding:25px 0;
@@ -299,7 +311,7 @@ footer p{
 
 
     section.sessao2{
-        padding: 70px 0;
+        padding: 70px 2%;
         width: 100%;
     }
     section.sessao2 .container{
@@ -322,5 +334,14 @@ footer p{
        padding: 0 2%;
        width: 100%;
        text-align: justify;
+    }
+}
+@media screen and (max-width: 330px){
+    section.box > .container > .texto h1{
+        font-weight:400;
+        font-size: 30px;
+        color: #696969;
+        padding: 0px 2%;   
+        letter-spacing: 5px;
     }
 }
