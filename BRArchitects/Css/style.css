@@ -166,7 +166,8 @@ section.about .txt{
 }
 section.about .botao{
     width: 100%;
-    color: black;
+    color: white;
+    font-size: 17px;
     border: none;
     cursor: pointer;
     background-color:#ccc;
@@ -174,7 +175,7 @@ section.about .botao{
 }
 /* section.about .botao :houver{
     background-color: green;
-} */
+ */
 
 section.about .about-contact .contact-single > .contact-img{
     padding:10px 0px;
@@ -190,7 +191,7 @@ section.about .about-contact .contact-single .contact-img > img{
 section.contato{
     max-width: 1280px;
     margin: 0 auto;
-    padding: 10px 0;
+    padding: 10px 2%;
 }
 section.contato > .contact-txt{
     padding: 10px 0;
@@ -211,6 +212,7 @@ section.contato form .send{
     background-color: #000;
     color: white;
     cursor: pointer;
+    
 }
 
 
@@ -219,7 +221,24 @@ section.contato form .send{
 section.img{
     max-width: 1280px;
     margin: 0 auto;
+    padding: 0px 2%;
 }
 section.img > img{
     width: 100%;
+}
+/*******estilizando o footer********/
+
+footer{
+    padding: 30px 16px;
+    text-align: center;
+    background-color: #000;
+}
+footer > p{
+    color: white;
+    text-decoration: none;
+}
+footer p > a{
+    text-decoration: none;
+    color: #ccc;
+    text-transform: uppercase;
 }
