@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    font-family: Verdana,sans-serif;
+}    
+html,body {
+    height:100%;
+}
+h1,h2,h3,h4,h5,h5{
+    font-weight: 400;
+    margin:10px 0;
+    
+}
+.estilo-h2{
+    border-bottom:1px solid #ccc;
+    padding: 15px 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.container{
+    max-width:1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    padding-top:10px 0;
+    width: 100%;
+    height: 100vh;
+}
+header .line{
+    width: 100%;
+    height:auto;
+}
+header .menu{
+    padding: 10px 16px;
+    float: right;
+}
+header .logo{
+    border:none;
+    outline: none;
+    display: inline-block;
+    padding: 15px 16px;
+}
+header .logo a{
+    color: black;
+    font-size: 22px;
+    text-decoration: none;
+}
+header .logo b{
+    margin-right: 5px;
+    font-size:22px ;
+    color: black;
+    font-weight: bold;
+}
+header .menu ul{
+    list-style-type: none;
+}
+header .menu ul li{
+    display: inline-block;
+    padding: 10px 16px;
+}
+header .menu ul li a{
+    font-size: 20px;
+    letter-spacing: 4px; /*distanciamento de cada linha*/
+    text-decoration: none;
+    color: #4f5952;
+}
+
+header .menu ul li a:hover{
+    background-color: #ccc;
+    padding: 8px 5px;
+    color: white;
+}
+.background{
+    position: relative;
+    height: 90%;
+    width: 100%;
+    background-image: url('../Imagens/arc.jpg');
+    background-position: top;
+    background-size: cover;
+    background-position: center;
+}
+.opacity{
+    max-width: 600px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+.opacity > .opacity-b{
+    width: 100%;
+    background-color: black;
+    padding: 8px 16px;
+    font-size: 36px;
+    opacity: 0.8; 
+}
+.opacity  .opacity-b > b{
+    color: white;
+}
+.opacity > .opacity-c{
+    margin-left: 10px;
+    font-size: 36px;
+    font-weight: normal;
+    color: white;
+}
+section.projetos{
+    max-width: 1280px;
+    margin: 0 auto; 
+}
+section.projetos > .container{
+   width: 100%;  
+   padding:0px 2%;
+   height: 430px;
+   margin-top: 30px;
+   
+}
+section.projetos .container > .single-container{
+    float: left;
+    width: calc(100% / 4);
+    overflow: hidden;
+    position: relative;
+}
+section.projetos .container .single-container > .single-text{
+   position: absolute;
+   top: 10px;
+   left: 7px;
+   color: white;
+   padding: 8px 16px;
+   background:black;
+   /* line-height: ; */
+}
+section.projetos .container .single-container > .single-img{
+    padding:  10px 8px;
+}
+section.projetos .container .single-container .single-img > img{
+    width: 100%;
+}
+/****** editando a section about*****/
+
+section.about{
+   width: 100%;
+   height: 70%;
+   padding:10px 2%;  
+    
+}
+section.about > .container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+section.about .about-text{
+    margin-top:30px;
+    /* font-size: ; */
+}
+section.about > .about-contact{
+    width: 100%;
+    margin-top: 30px;
+}
+section.about .about-contact > .contact-single{
+    float: left;
+    width:calc(100% / 4);
+    padding: 20px 8px;
+}
+section.about .about-contact .contact-single > .opacidade{
+    opacity: 0.6;
+    font-size: 20px;
+    margin: 10px 0;
+}
+section.about .txt{
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}
+section.about .botao{
+    width: 100%;
+    color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    background-color:#ccc;
+    padding:8px 16px;
+}
+/* section.about .botao :houver{
+    background-color: green;
+ */
+
+section.about .about-contact .contact-single > .contact-img{
+    padding:10px 0px;
+    opacity: 0.6;
+}
+section.about .about-contact .contact-single .contact-img > img{
+    width: 100%;
+}
+
+
+/*********ESTILIZANDO A SECTION CONTATO*******************/
+
+section.contato{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 10px 2%;
+}
+section.contato > .contact-txt{
+    padding: 10px 0;
+}
+section.contato > form{
+    margin: 10px 0;
+} 
+section.contato form input{
+    width: 100%;
+    padding:8px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+section.contato form .send{
+    margin: 15px 0;
+    padding: 10px 16px;
+    border: none;
+    background-color: #000;
+    color: white;
+    cursor: pointer;
+    
+}
+
+
+/***********ESTILIZANDO O MAPA***********************/
+
+section.img{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0px 2%;
+}
+section.img > img{
+    width: 100%;
+}
+/*******estilizando o footer********/
+
+footer{
+    padding: 30px 16px;
+    text-align: center;
+    background-color: #000;
+}
+footer > p{
+    color: white;
+    text-decoration: none;
+}
+footer p > a{
+    text-decoration: none;
+    color: #ccc;
+    text-transform: uppercase;
+}
