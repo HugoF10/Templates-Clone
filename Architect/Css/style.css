@@ -58,7 +58,7 @@ header .menu ul{
 }
 header .menu ul li{
     display: inline-block;
-    padding: 10px 16px;
+    padding: 10px 10px;
 }
 header .menu ul li a{
     font-size: 20px;
@@ -66,7 +66,6 @@ header .menu ul li a{
     text-decoration: none;
     color: #4f5952;
 }
-
 header .menu ul li a:hover{
     background-color: #ccc;
     padding: 8px 5px;
@@ -76,11 +75,12 @@ header .menu ul li a:hover{
     position: relative;
     height: 90%;
     width: 100%;
-    background-image: url('../Imagens/arc.jpg');
+     background-image: url('../Imagens/arc.jpg');
     background-position: top;
     background-size: cover;
-    background-position: center;
+    background-position: center; 
 }
+
 .opacity{
     max-width: 600px;
     display: inline-block;
@@ -128,6 +128,8 @@ section.projetos .container .single-container > .single-text{
    color: white;
    padding: 8px 16px;
    background:black;
+   max-height: 22%;
+  
    /* line-height: ; */
 }
 section.projetos .container .single-container > .single-img{
@@ -248,3 +250,5 @@ footer p > a{
     color: #ccc;
     text-transform: uppercase;
 }
+
+/**media screen*/
