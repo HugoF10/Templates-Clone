@@ -163,7 +163,7 @@ section.about{
      padding: 20px 8px;
  }
  section.about .sobre-contact .about-single > .contact-texto{
-    padding: 2%;
+     padding: 2%; 
  }
  section.about .sobre-contact .about-single > .opacidade{
      opacity: 0.6;
@@ -192,7 +192,8 @@ section.about{
      opacity: 0.6;
  }
  section.about .sobre-contact .about-single .contact-img > img{
-     width: 100%;
+     width:100% ;
+     filter: grayscale(75%);
  }
 
 
