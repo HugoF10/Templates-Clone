@@ -141,7 +141,7 @@ section.projetos .container .single-container .single-img > img{
 /****** editando a section about*****/
 section.about{
     width: 100%;
-    height: 102%;
+    height: auto;
     padding:10px 2%;  
      
  }
@@ -153,9 +153,11 @@ section.about{
      margin-top:30px;
      /* font-size: ; */
  }
- section.about > .sobre-contact{
+.sobre-contact{/* ta causando bug, analisar*/
      width: 100%;
-     margin-top: 30px;
+    
+     padding: 5px 0;
+     
  }
  section.about .sobre-contact > .about-single{
      float: left;
